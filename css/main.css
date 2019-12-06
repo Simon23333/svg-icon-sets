@@ -1,6 +1,7 @@
 html {
   font-family: Overpass, sans-serif;
   background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  color: #fff;
 }
 
 h1 {
@@ -28,4 +29,13 @@ a {
   color: #ff5e3a;
   border-color: #fff;
   background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    border-bottom: none;
+  }
+
 }
