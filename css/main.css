@@ -18,16 +18,15 @@ i {
 }
 
 .btn:hover {
-  background-color: #fff;
   color: #ff5e3a;
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 @media only screen and (min-width: 60em) {
 
-  .item-1, .item-2 {
-    border-right: 3px #ff9500 solid;
-    border-bottom: none;
+  section {
+    border-right: 2px #ff9500 solid;
   }
 
 }
