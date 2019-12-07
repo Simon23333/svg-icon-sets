@@ -13,7 +13,7 @@ i {
 }
 
 .btn-ghost {
-  border-color: #fff;
+  border-color: rgba(255, 255, 255, .5);
   color: #fff;
 }
 
@@ -26,8 +26,8 @@ i {
 @media only screen and (min-width: 60em) {
 
   .unit:nth-child(2) {
-    border-left: 2px solid rgba(255, 255, 255, .5);
-    border-right: 2px solid rgba(255, 255, 255, .5);
+    border-left: 3px solid rgba(255, 255, 255, .5);
+    border-right: 3px solid rgba(255, 255, 255, .5);
     border-bottom: none;
   }
 
